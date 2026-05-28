@@ -30,36 +30,36 @@ const Home = () => {
         <h1>Add a Friend</h1>
       </div>
       <div className="flex flex-wrap justify-center items-center gap-10 mt-5 p-6 border-b-2 border-gray-300">
-        <div className="flex flex-col justify-center items-center border border-gray-300 shadow-sm shadow-black rounded px-10 py-3">
+        <div className="flex flex-1 flex-col justify-center items-center border border-gray-300 shadow-sm shadow-black rounded px-10 py-3 h-35">
           <h1 className="text-3xl text-[#244d3fFF] font-bold">
             {allFriends.length}
           </h1>
-          <h2 className="text-lg p-2 text-gray-600 font-medium text-center">
+          <h2 className="text-md p-2 text-gray-600 font-medium text-center">
             Total Friends
           </h2>
         </div>
 
-        <div className="flex flex-col justify-center items-center border border-gray-300 shadow-sm shadow-black rounded px-10 py-3">
+        <div className="flex flex-1 flex-col justify-center items-center border border-gray-300 shadow-sm shadow-black rounded px-10 py-3 h-35">
           <h1 className="text-3xl text-[#244d3fFF] font-bold">
             {totalOnTrack}
           </h1>
-          <h2 className="text-lg p-2 text-gray-600 font-medium text-center">
+          <h2 className="text-md p-2 text-gray-600 font-medium text-center">
             On Track
           </h2>
         </div>
 
-        <div className="flex flex-col justify-center items-center border border-gray-300 shadow-sm shadow-black rounded px-10 py-3">
+        <div className="flex flex-1 flex-col justify-center items-center border border-gray-300 shadow-sm shadow-black rounded px-10 py-3 h-35">
           <h1 className="text-3xl text-[#244d3fFF] font-bold">
             {totalNeedAttention}
           </h1>
-          <h2 className="text-lg p-2 text-gray-600 font-medium text-center">
+          <h2 className="text-md p-2 text-gray-600 font-medium text-center">
             Need Attention
           </h2>
         </div>
 
-        <div className="flex flex-col justify-center items-center border border-gray-300 shadow-sm shadow-black rounded px-10 py-3">
+        <div className="flex flex-1 flex-col justify-center items-center border border-gray-300 shadow-sm shadow-black rounded px-10 py-3 h-35">
           <h1 className="text-3xl text-[#244d3fFF] font-bold">9</h1>
-          <h2 className="text-lg p-2 text-gray-600 font-medium text-center">
+          <h2 className="text-md p-2 text-gray-600 font-medium text-center">
             Interactions This Month
           </h2>
         </div>
