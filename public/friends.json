@@ -7,7 +7,7 @@
     "days_since_contact": 22,
     "status": "overdue",
     "tags": ["college"],
-    "bio": "Grew up on the same street. She moved to Seattle for a design job but we still talk about our hometown.",
+    "bio": "Grew up on the same street. ",
     "goal": 14,
     "next_due_date": "2026-05-06"
   },
@@ -19,7 +19,7 @@
     "days_since_contact": 3,
     "status": "on-track",
     "tags": ["work"],
-    "bio": "Brilliant backend engineer. We met during the 2024 FinTech hackathon and usually meet for coffee to talk startups.",
+    "bio": "Brilliant backend engineer. ",
     "goal": 30,
     "next_due_date": "2026-06-25"
   },
@@ -31,7 +31,7 @@
     "days_since_contact": 6,
     "status": "almost due",
     "tags": ["college"],
-    "bio": "University roommate. She’s now a yoga instructor. We try to have a catch-up call every Sunday.",
+    "bio": "She’s now a yoga instructor. We try to have a catch-up call every Sunday.",
     "goal": 7,
     "next_due_date": "2026-05-29"
   },
@@ -43,7 +43,7 @@
     "days_since_contact": 45,
     "status": "overdue",
     "tags": ["work"],
-    "bio": "Worked together at the marketing agency. We play online strategy games on Friday nights occasionally.",
+    "bio": "Worked together at the marketing agency.",
     "goal": 21,
     "next_due_date": "2026-04-10"
   },
@@ -55,7 +55,7 @@
     "days_since_contact": 1,
     "status": "on-track",
     "tags": ["club", "friend"],
-    "bio": "Shared love for historical fiction. We exchange book recommendations almost daily.",
+    "bio": "We exchange book recommendations almost daily.",
     "goal": 14,
     "next_due_date": "2026-06-11"
   },
@@ -67,7 +67,7 @@
     "days_since_contact": 12,
     "status": "almost due",
     "tags": ["work"],
-    "bio": "met at a local trail. Professional photographer who gives me tips on my landscape shots.",
+    "bio": "Professional photographer who gives me tips on my landscape shots.",
     "goal": 14,
     "next_due_date": "2026-05-30"
   },
@@ -79,7 +79,7 @@
     "days_since_contact": 2,
     "status": "on-track",
     "tags": ["work","cycling"],
-    "bio": "Part of the Saturday morning cycling group. Very competitive but great for motivation.",
+    "bio": "Very competitive but great for motivation.",
     "goal": 7,
     "next_due_date": "2026-06-03"
   },
@@ -91,7 +91,7 @@
     "days_since_contact": 60,
     "status": "overdue",
     "tags": ["mentor"],
-    "bio": "Met in an oil painting workshop. She has a studio downtown and is a huge inspiration for my creative work.",
+    "bio": "Very competitive but great for motivation.",
     "goal": 30,
     "next_due_date": "2026-03-28"
   }
