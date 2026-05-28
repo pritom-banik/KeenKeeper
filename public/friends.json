@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Jenkins",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "sarah.j@outlook.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["college"],
+    "bio": "Grew up on the same street. She moved to Seattle for a design job but we still talk about our hometown.",
+    "goal": 14,
+    "next_due_date": "2026-05-06"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Chen",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "m.chen.dev@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["work"],
+    "bio": "Brilliant backend engineer. We met during the 2024 FinTech hackathon and usually meet for coffee to talk startups.",
+    "goal": 30,
+    "next_due_date": "2026-06-25"
+  },
+  {
+    "id": 3,
+    "name": "Elena Rodriguez",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "elena.yoga@yahoo.com",
+    "days_since_contact": 6,
+    "status": "almost due",
+    "tags": ["college"],
+    "bio": "University roommate. She’s now a yoga instructor. We try to have a catch-up call every Sunday.",
+    "goal": 7,
+    "next_due_date": "2026-05-29"
+  },
+  {
+    "id": 4,
+    "name": "David Thompson",
+    "picture": "https://randomuser.me/api/portraits/men/15.jpg",
+    "email": "dave.t88@company.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["work"],
+    "bio": "Worked together at the marketing agency. We play online strategy games on Friday nights occasionally.",
+    "goal": 21,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 5,
+    "name": "Priya Sharma",
+    "picture": "https://randomuser.me/api/portraits/women/22.jpg",
+    "email": "psharma.reads@protonmail.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["club", "friend"],
+    "bio": "Shared love for historical fiction. We exchange book recommendations almost daily.",
+    "goal": 14,
+    "next_due_date": "2026-06-11"
+  },
+  {
+    "id": 6,
+    "name": "Kevin Miller",
+    "picture": "https://randomuser.me/api/portraits/men/82.jpg",
+    "email": "kevin.miller_photo@icloud.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["work"],
+    "bio": "met at a local trail. Professional photographer who gives me tips on my landscape shots.",
+    "goal": 14,
+    "next_due_date": "2026-05-30"
+  },
+  {
+    "id": 7,
+    "name": "Jordan Smith",
+    "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+    "email": "jordan.cycling@me.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["work","cycling"],
+    "bio": "Part of the Saturday morning cycling group. Very competitive but great for motivation.",
+    "goal": 7,
+    "next_due_date": "2026-06-03"
+  },
+  {
+    "id": 8,
+    "name": "Amina Al-Farsi",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "amina.creative@gmail.com",
+    "days_since_contact": 60,
+    "status": "overdue",
+    "tags": ["mentor"],
+    "bio": "Met in an oil painting workshop. She has a studio downtown and is a huge inspiration for my creative work.",
+    "goal": 30,
+    "next_due_date": "2026-03-28"
+  }
+]
