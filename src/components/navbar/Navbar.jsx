@@ -12,7 +12,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex-none">
-        <ul className="menu menu-horizontal px-1 font-bold ">
+        <ul className="menu menu-horizontal px-1 font-bold gap-1">
           <li>
             <NavLink to="/">
               <div className="flex justify-center items-center gap-0.5 p-1">
