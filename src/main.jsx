@@ -9,6 +9,7 @@ import Home from './components/home/Home.jsx';
 import Details from './components/details/Details.jsx';
 import Timeline from './components/timeline/Timeline.jsx';
 import Stats from './components/stats/Stats.jsx';
+import Notfound from './components/404/Notfound.jsx';
 
 const router = createBrowserRouter([
   {
@@ -16,11 +17,16 @@ const router = createBrowserRouter([
     Component:App,
     children:[
       {index:true,Component:Home},
-      {path:'details/:id',Component:Details},
+      {path:'details/:id',Component:Details,errorElement: <Notfound />},
       {path:'timeline',Component:Timeline},
-      {path:'stats',Component:Stats}
+      {path:'stats',Component:Stats},
+      {path:'*',Component:Notfound}
     ]
   },
+  {
+    path:"*",
+    Component:Notfound
+  }
 ]);
 
 

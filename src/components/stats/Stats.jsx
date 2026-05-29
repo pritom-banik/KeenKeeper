@@ -64,8 +64,8 @@ const Stats = () => {
                 isAnimationActive={true}
                 cornerRadius={8}
                 paddingAngle={5}
-                animationDuration={800} // duration in ms
-                animationEasing="ease-out" // easing for smooth effect
+                animationDuration={800} 
+                animationEasing="ease-out" 
               >
                 {data.map((entry, index) => (
                   <Cell key={`cell-${index}`} fill={COLORS[entry.name]} />
