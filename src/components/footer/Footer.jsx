@@ -9,9 +9,9 @@ const Footer = () => {
         </div>
         <div className="p-2">Social links</div>
         <div className="flex flex-wrap justify-around items-center gap-2">
-            <img className="h-8 w-8 cursor-pointer" src="/src/assets/facebook.png"></img>
-            <img className="h-8 w-8 cursor-pointer" src="/src/assets/instagram.png"></img>
-            <img className="h-8 w-8 cursor-pointer" src="/src/assets/twitter.png"></img>
+            <img className="h-8 w-8 cursor-pointer" src="/facebook.png"></img>
+            <img className="h-8 w-8 cursor-pointer" src="/instagram.png"></img>
+            <img className="h-8 w-8 cursor-pointer" src="/twitter.png"></img>
         </div>
       </div>
 
