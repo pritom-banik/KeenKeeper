@@ -18,7 +18,7 @@ const Details = () => {
   const { timeline, setTimeline } = useContext(TimelineContext);
 
   return (
-    <div className="grid grid-cols-3 gap-3 my-10 px-4">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-3 my-10 px-4">
       <div className="flex flex-col justify-around gap-3">
         <div className="flex flex-col justify-center items-center border border-gray-300 shadow-sm shadow-black rounded py-3 gap-1">
           <img

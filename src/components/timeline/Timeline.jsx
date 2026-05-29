@@ -71,7 +71,7 @@ const Timeline = () => {
         {pageTimeline.length !== 0 ? (
           pageTimeline.map((event) => (
             <div className="flex flex-col border border-gray-300 font-medium shadow-sm shadow-black rounded p-5 ">
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 <img
                   className="h-10 w-10"
                   src={`${event.type === "Call" ? "/src/assets/call.png" : event.type === "Text" ? "/src/assets/text.png" : "/src/assets/video.png"}`}
