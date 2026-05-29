@@ -4,6 +4,7 @@ import { FriendsContext, TimelineContext } from "../../App";
 import { IoArchiveOutline } from "react-icons/io5";
 import { RiNotificationSnoozeLine } from "react-icons/ri";
 import { RiDeleteBin6Line } from "react-icons/ri";
+import { toast, Zoom } from "react-toastify";
 
 const Details = () => {
   const id = useParams();
@@ -131,6 +132,17 @@ const Details = () => {
                   },
                   ...timeline,
                 ]);
+                toast.success("Call Successful", {
+                  position: "top-center",
+                  autoClose: 3000,
+                  hideProgressBar: false,
+                  closeOnClick: false,
+                  pauseOnHover: false,
+                  draggable: true,
+                  progress: undefined,
+                  theme: "colored",
+                  transition: Zoom,
+                });
               }}
               className="cursor-pointer hover:shadow-md flex flex-1 flex-col justify-center items-center bg-gray-100 shadow-sm shadow-black rounded px-2 py-3
             transition-all duration-200 ease-in-out active:scale-95 active:bg-gray-10"
@@ -159,6 +171,17 @@ const Details = () => {
                   },
                   ...timeline,
                 ]);
+                toast.success("Text successful", {
+                  position: "top-center",
+                  autoClose: 3000,
+                  hideProgressBar: false,
+                  closeOnClick: false,
+                  pauseOnHover: false,
+                  draggable: true,
+                  progress: undefined,
+                  theme: "colored",
+                  transition: Zoom,
+                });
               }}
               className="cursor-pointer hover:shadow-md flex flex-1 flex-col justify-center items-center bg-gray-100 shadow-sm shadow-black rounded px-2 py-3
              transition-all duration-200 ease-in-out active:scale-95 active:bg-gray-10"
@@ -187,6 +210,17 @@ const Details = () => {
                   },
                   ...timeline,
                 ]);
+                toast.success("Video Successful", {
+                  position: "top-center",
+                  autoClose: 3000,
+                  hideProgressBar: false,
+                  closeOnClick: false,
+                  pauseOnHover: false,
+                  draggable: true,
+                  progress: undefined,
+                  theme: "colored",
+                  transition: Zoom,
+                });
               }}
               className="cursor-pointer hover:shadow-md flex flex-1 flex-col justify-center items-center bg-gray-100 shadow-sm shadow-black rounded px-2 py-3
              transition-all duration-200 ease-in-out active:scale-95 active:bg-gray-10"
