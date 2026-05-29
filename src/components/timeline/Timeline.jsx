@@ -74,7 +74,7 @@ const Timeline = () => {
               <div className="flex flex-wrap gap-2">
                 <img
                   className="h-10 w-10"
-                  src={`${event.type === "Call" ? "/src/assets/call.png" : event.type === "Text" ? "/src/assets/text.png" : "/src/assets/video.png"}`}
+                  src={`${event.type === "Call" ? "/call.png" : event.type === "Text" ? "/text.png" : "/video.png"}`}
                 ></img>
                 <div>
                   <div className="text-gray-600">

@@ -147,7 +147,7 @@ const Details = () => {
               className="cursor-pointer hover:shadow-md flex flex-1 flex-col justify-center items-center bg-gray-100 shadow-sm shadow-black rounded px-2 py-3
             transition-all duration-200 ease-in-out active:scale-95 active:bg-gray-10"
             >
-              <img src="/src/assets/call.png" alt="Call"></img>
+              <img src="/call.png" alt="Call"></img>
               <h2 className="text-lg p-2 text-gray-600 font-medium text-center">
                 Call
               </h2>
@@ -186,7 +186,7 @@ const Details = () => {
               className="cursor-pointer hover:shadow-md flex flex-1 flex-col justify-center items-center bg-gray-100 shadow-sm shadow-black rounded px-2 py-3
              transition-all duration-200 ease-in-out active:scale-95 active:bg-gray-10"
             >
-              <img src="/src/assets/text.png" alt="Call"></img>
+              <img src="/text.png" alt="Call"></img>
               <h2 className="text-lg p-2 text-gray-600 font-medium text-center">
                 Text
               </h2>
@@ -225,7 +225,7 @@ const Details = () => {
               className="cursor-pointer hover:shadow-md flex flex-1 flex-col justify-center items-center bg-gray-100 shadow-sm shadow-black rounded px-2 py-3
              transition-all duration-200 ease-in-out active:scale-95 active:bg-gray-10"
             >
-              <img src="/src/assets/video.png" alt="Call"></img>
+              <img src="/video.png" alt="Call"></img>
               <h2 className="text-lg p-2 text-gray-600 font-medium text-center">
                 Video
               </h2>
