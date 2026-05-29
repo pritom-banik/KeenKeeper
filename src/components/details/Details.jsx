@@ -1,6 +1,6 @@
 import { use, useContext } from "react";
 import { useParams } from "react-router";
-import { FriendsContext } from "../../App";
+import { FriendsContext, TimelineContext } from "../../App";
 import { IoArchiveOutline } from "react-icons/io5";
 import { RiNotificationSnoozeLine } from "react-icons/ri";
 import { RiDeleteBin6Line } from "react-icons/ri";
@@ -13,6 +13,8 @@ const Details = () => {
   const friend = allFriends.find((frnd) => frnd.id.toString() === id.id);
   //   console.log("id : ",id.id," type : ",typeof(id.id))
   //   console.log(friend);
+
+  const { timeline, setTimeline } = useContext(TimelineContext);
 
   return (
     <div className="grid grid-cols-3 gap-3 my-10 px-4">
@@ -111,21 +113,84 @@ const Details = () => {
             Quick Check-In
           </h1>
           <div className="flex flex-wrap justify-around items-center gap-5">
-            <div className="cursor-pointer hover:shadow-md flex flex-1 flex-col justify-center items-center bg-gray-100 shadow-sm shadow-black rounded px-2 py-3">
+            <div
+              onClick={() => {
+                setTimeline([
+                  {
+                    type: "Call",
+                    with: friend.name,
+                    date: new Date().toLocaleDateString("en-US", {
+                      month: "short",
+                      day: "numeric",
+                      year: "numeric",
+                    }),
+                    time: new Date().toLocaleTimeString("en-US", {
+                      hour: "2-digit",
+                      minute: "2-digit",
+                    }),
+                  },
+                  ...timeline,
+                ]);
+              }}
+              className="cursor-pointer hover:shadow-md flex flex-1 flex-col justify-center items-center bg-gray-100 shadow-sm shadow-black rounded px-2 py-3
+            transition-all duration-200 ease-in-out active:scale-95 active:bg-gray-10"
+            >
               <img src="/src/assets/call.png" alt="Call"></img>
               <h2 className="text-lg p-2 text-gray-600 font-medium text-center">
                 Call
               </h2>
             </div>
 
-            <div className="cursor-pointer hover:shadow-md flex flex-1 flex-col justify-center items-center bg-gray-100 shadow-sm shadow-black rounded px-2 py-3">
+            <div
+              onClick={() => {
+                setTimeline([
+                  {
+                    type: "Text",
+                    with: friend.name,
+                    date: new Date().toLocaleDateString("en-US", {
+                      month: "short",
+                      day: "numeric",
+                      year: "numeric",
+                    }),
+                    time: new Date().toLocaleTimeString("en-US", {
+                      hour: "2-digit",
+                      minute: "2-digit",
+                    }),
+                  },
+                  ...timeline,
+                ]);
+              }}
+              className="cursor-pointer hover:shadow-md flex flex-1 flex-col justify-center items-center bg-gray-100 shadow-sm shadow-black rounded px-2 py-3
+             transition-all duration-200 ease-in-out active:scale-95 active:bg-gray-10"
+            >
               <img src="/src/assets/text.png" alt="Call"></img>
               <h2 className="text-lg p-2 text-gray-600 font-medium text-center">
                 Text
               </h2>
             </div>
 
-            <div className="cursor-pointer hover:shadow-md flex flex-1 flex-col justify-center items-center bg-gray-100 shadow-sm shadow-black rounded px-2 py-3">
+            <div
+              onClick={() => {
+                setTimeline([
+                  {
+                    type: "Video",
+                    with: friend.name,
+                    date: new Date().toLocaleDateString("en-US", {
+                      month: "short",
+                      day: "numeric",
+                      year: "numeric",
+                    }),
+                    time: new Date().toLocaleTimeString("en-US", {
+                      hour: "2-digit",
+                      minute: "2-digit",
+                    }),
+                  },
+                  ...timeline,
+                ]);
+              }}
+              className="cursor-pointer hover:shadow-md flex flex-1 flex-col justify-center items-center bg-gray-100 shadow-sm shadow-black rounded px-2 py-3
+             transition-all duration-200 ease-in-out active:scale-95 active:bg-gray-10"
+            >
               <img src="/src/assets/video.png" alt="Call"></img>
               <h2 className="text-lg p-2 text-gray-600 font-medium text-center">
                 Video

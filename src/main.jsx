@@ -7,6 +7,7 @@ import './index.css'
 import App from './App.jsx'
 import Home from './components/home/Home.jsx';
 import Details from './components/details/Details.jsx';
+import Timeline from './components/timeline/Timeline.jsx';
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,8 @@ const router = createBrowserRouter([
     Component:App,
     children:[
       {index:true,Component:Home},
-      {path:'details/:id',Component:Details}
+      {path:'details/:id',Component:Details},
+      {path:'timeline',Component:Timeline}
     ]
   },
 ]);
