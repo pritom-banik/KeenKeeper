@@ -34,7 +34,7 @@ const Stats = () => {
   };
 
   return (
-    <div className="mx-40 my-5">
+    <div className="mx-5 sm:mx-40 my-5">
       <div className="text-5xl font-semibold py-10">Friendship Analytics</div>
       {timeline.length !== 0 ? (
         <div className="border-black bg-gray-100 rounded-lg p-5 shadow-sm shadow-black">
